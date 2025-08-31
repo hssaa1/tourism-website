@@ -1,0 +1,24 @@
+{
+  "name": "tourism-website",
+  "version": "1.0.0",
+  "description": "Website Pariwisata Kalimantan Selatan",
+  "main": "backend/app.js",
+  "scripts": {
+    "start": "node backend/app.js",
+    "dev": "nodemon backend/app.js"
+  },
+  "keywords": [
+    "pariwisata",
+    "kalimantan-selatan",
+    "express",
+    "leaflet"
+  ],
+  "author": "Prof",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
